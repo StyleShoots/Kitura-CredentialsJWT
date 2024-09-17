@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.10
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 
@@ -14,7 +14,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/Kitura/Kitura-Credentials.git", from: "2.5.200"),
+        .package(url: "https://github.com/StyleShoots/Kitura-Credentials.git", branch: "2.5.2_tag"),
         .package(url: "https://github.com/Kitura/Swift-JWT.git", from: "4.0.0"),
     ],
     targets: [
